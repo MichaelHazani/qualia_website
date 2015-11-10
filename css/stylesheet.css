@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'socicon';
+    src: url('../fonts/socicon/socicon.eot');
+    src: url('../fonts/socicon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon/socicon.woff') format('woff'),
+         url('../fonts/socicon/socicon.ttf') format('truetype'),
+         url('../fonts/socicon/socicon.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .desktop, .rarrow, .larrow, #three  {
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+
+  .mobile {
+    display:none;
+  }
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#shows {
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+
+.socicon {
+    font-family: 'socicon' !important;
+
+}
+
+.social {
+  font-size: 130%;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2f3247+0,2f3247+1,996781+100 --DELETED*/
+color: #337ab7;
+background-color: #12091D;
+font-family: 'Quicksand', serif;
+font-size:30px;
+}
+
+tbody {
+  font-size:14px;
+}
+
+thead {
+  font-size:20px;
+}
+
+.footer {
+  position: fixed;
+  display:block;
+  bottom: 0px;
+  width: 100%;
+  margin: 0 auto;
+  /* Set the fixed height of the footer here */
+  height: 170px;
+
+/*  background-color: #f5f5f5;*/
+/*  visibility: hidden;*/
+}
+
+.shows .btn .btn-primary .btn-lg {
+color: #337ab7;
+
+}
+
+.modal-body {
+  font-size: 14px;
+
+}
+
+
+.shows:hover {
+  color: #23527c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.rel {
+  font-weight:light;
+
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.logo {
+  max-width: 40%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display:none;
+}
+
+
+.bandcamp {
+
+  margin-top: 15%;
+}
+
+
+#three {
+position: fixed;
+/*border-right: 270px;*/
+margin-bottom: 30px;
+/*width: 10px;*/
+z-index: -1;
+
+}
+
+.rarrow, .larrow {
+position: relative;
+margin: 0 auto;
+max-width: 35px;
+margin-top:10%;
+}
+
+.disable {
+   pointer-events: none;
+   cursor: default;
+}
